@@ -3,6 +3,10 @@
     "name": "lab-4",
     "slug": "lab-4",
     "version": "1.0.0",
+    "experiments": {
+      "bridgeless": false
+    },
+    "scheme": "lab-4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-asset",
+      "expo-router"
+    ]
   }
 }
